@@ -1,4 +1,5 @@
 <?php
+
 //Путь до директории с конфигурационными файлами
 const DIR_CONFIG = '/../config';
 
@@ -21,4 +22,5 @@ function getConfigs(string $path = DIR_CONFIG): array
 require_once __DIR__ . '/../routes/web.php';
 
 return new Src\Application(new Src\Settings(getConfigs()));
+
 
