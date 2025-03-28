@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REOUEST_FILENAME} !-d
+    RewriteCond %{REOUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
