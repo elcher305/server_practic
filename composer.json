@@ -1,0 +1,14 @@
+{
+    "name": "elcher305/server_practic",
+    "description": "Simple freamework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elvira",
+            "email": "elvira.chernova.05@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
